@@ -1,0 +1,66 @@
+:root {
+    --chineseViolet: #71677D;
+    --eggplant: #4A3642;
+    --beige: #DADFC5;
+    --dimGray: #67675F;
+    --olivine: #92B384;
+    --light: #e3e4dd;
+    --Dark: #292028; 
+  }
+
+.contact-container {
+    background-image: url('/path/to/background-image.jpg'); /* Set your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Text color for content on top of the background */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  .contact-header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media-icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-media-icons a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .contact-form {
+    /* Style your contact form container here */
+  }
+  
+  h3 {
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  
+  form {
+    /* Style your form here */
+  }
+  
+  label {
+    /* Style your form labels here */
+  }
+  
+  input,
+  textarea,
+  button {
+    /* Style your form input, textarea, and button here */
+  }
+  
+  a {
+    /* Style your download resume link here */
+  }

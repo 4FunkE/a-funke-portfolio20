@@ -1,12 +1,12 @@
 :root {
-    --beige: #DADFC5;
-    --olivine: #92B384;
-    --chineseViolet: #71677D;
-    --dimGray: #67675F;
-    --eggplant: #4A3642;
-    --light: #e3e4dd;
-    --Dark: #292028; 
-  }
+  --chineseViolet: #71677D;
+  --eggplant: #4A3642;
+  --beige: #DADFC5;
+  --dimGray: #67675F;
+  --olivine: #92B384;
+  --light: #e3e4dd;
+  --Dark: #292028; 
+}
 
 /* Home.css */
 .home-container {

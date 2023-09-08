@@ -7,7 +7,6 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
-import Resume from './Resume';
 import Footer from './Footer';
 
 function PortfolioContainer() {
@@ -19,7 +18,6 @@ function PortfolioContainer() {
         <Route path="/aboutMe" component={AboutMe} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
       </Switch>
       <Footer />
     </Router>
