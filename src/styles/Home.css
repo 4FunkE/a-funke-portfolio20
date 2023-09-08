@@ -1,0 +1,39 @@
+:root {
+    --beige: #DADFC5;
+    --olivine: #92B384;
+    --chineseViolet: #71677D;
+    --dimGray: #67675F;
+    --eggplant: #4A3642;
+    --light: #e3e4dd;
+    --Dark: #292028; 
+  }
+
+/* Home.css */
+.home-container {
+    display: flex;
+    height: 100vh; /* 100% viewport height, takes up the whole screen */
+    overflow: hidden; /* Prevent background image from overflowing */
+  }
+  
+  .background-image {
+    flex: 1;
+    background-image: url('/public/images/eyePainting.png'); /* Set your background image */
+    background-size: cover;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--chineseViolet); /* Light purple background color */
+  }
+  
+  h1 {
+    font-size: 36px; /* Adjust font size as needed */
+  }
+  
+  p {
+    font-size: 18px; /* Adjust font size as needed */
+  }
