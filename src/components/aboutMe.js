@@ -17,7 +17,7 @@ function AboutMe() {
         Photography, Jewelry/Metal, Drawing, and Glass.
         </p>
         <div className="profile-image">
-          <img src="/path/to/your-photo.jpg" alt="Your Name" />
+          <img src="../../public/images/selfie.png" alt="Your Name" />
         </div>
       </div>
       <div className="bottom-bar">
