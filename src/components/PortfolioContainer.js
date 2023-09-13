@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+//this is the portfolio container
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './PortfolioContainer.css';
 
 // Import all components
@@ -9,19 +11,19 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
 
-function PortfolioContainer() {
+function App() {
   return (
     <Router>
-      <Header />
-      <Switch>
+      <div className="app-container">
+        <Header />
         <Route path="/" component={Home} />
         <Route path="/aboutMe" component={AboutMe} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-      </Switch>
-      <Footer />
+        <Footer />
+      </div>
     </Router>
   );
 }
 
-export default PortfolioContainer;
+export default App;

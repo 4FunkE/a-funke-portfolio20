@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaLinkedIn, FaInstagram, FaGithub } from 'react-icons/fa';
-import './Contact.css'; // Import your CSS for styling
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
+import '../styles/Contact.css'; // Import your CSS for styling
 
 function Contact() {
   return (
@@ -10,7 +10,7 @@ function Contact() {
       </div>
       <div className="social-media-icons">
         <a href="https://linkedin.com/in/your_linkedin_profile">
-            <FaLinkedIn size={32} />
+            <FaLinkedin size={32} />
         </a>
         <a href="https://instagram.com/your_instagram_profile">
             <FaInstagram size={32} />

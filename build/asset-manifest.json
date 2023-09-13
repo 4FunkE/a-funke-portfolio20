@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7433eea2.css",
+    "main.js": "/static/js/main.25976470.js",
+    "static/media/eyePainting.png": "/static/media/eyePainting.989927a34957465be858.png",
+    "static/media/octoPainting.png": "/static/media/octoPainting.0dd9f720387da35c119e.png",
+    "index.html": "/index.html",
+    "main.7433eea2.css.map": "/static/css/main.7433eea2.css.map",
+    "main.25976470.js.map": "/static/js/main.25976470.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7433eea2.css",
+    "static/js/main.25976470.js"
+  ]
+}
