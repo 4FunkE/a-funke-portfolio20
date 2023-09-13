@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/Portfolio.css';
+import '../styles/Works.css';
 import { Carousel } from 'react-responsive-carousel';
 
-function Portfolio() {
+function Works() {
   return (
-    <div className="portfolio-container">
-      <div className="portfolio-header">
+    <div className="Works-container">
+      <div className="Works-header">
         <h2>The Works</h2>
         <p>
           Explore my web applications built with the MERN stack and more.
@@ -29,4 +29,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Works;

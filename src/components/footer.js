@@ -18,8 +18,8 @@ function Footer() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/portfolio" className="nav-link">
-              Portfolio
+            <Link to="/works" className="nav-link">
+              Works
             </Link>
           </li>
           <li className="nav-item">

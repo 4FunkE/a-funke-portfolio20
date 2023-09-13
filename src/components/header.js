@@ -33,10 +33,10 @@ function Header({ currentPage }) {
       </li>
       <li className="nav-item">
         <Link
-          to="/portfolio"
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          to="/works"
+          className={currentPage === 'Works' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          Works
         </Link>
       </li>
       <li className="nav-item">
