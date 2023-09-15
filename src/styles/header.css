@@ -7,3 +7,48 @@
     --light: #e3e4dd;
     --Dark: #292028; 
   }
+
+  /* Header container */
+header {
+  background: linear-gradient(var(--dimGray), transparent); /* Gradient background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Add padding for spacing */
+}
+
+/* Logo styles */
+.logo img {
+  width: 100px;
+  height: 50px;
+  /* You can add additional styles here for the logo */
+}
+
+/* Navigation styles */
+.nav.nav-tabs {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Add spacing between nav items */
+}
+
+.nav-item {
+  /* Bounce effect on hover */
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+/* Active link styles */
+.nav-link.active {
+  /* Add styles for active link if needed */
+}
+
+/* Other link styles */
+.nav-link {
+  text-decoration: none;
+  color: white;
+  /* Add other link styles here */
+}
