@@ -3,6 +3,7 @@ import "../styles/Header.css";
 
 function Header() {
   const [currentPage, setCurrentPage] = useState("Home");
+  const [isHovered, setIsHovered] = useState(false); // State to track hover
 
   useEffect(() => {
     // Handle initial route based on window location
@@ -19,6 +20,15 @@ function Header() {
       window.removeEventListener("popstate", handlePopState);
     };
   }, []);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true); // Set hover state to true on mouse enter
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false); // Set hover state to false on mouse leave
+  };
+
 
   const handleRouteChange = (route) => {
     // Update currentPage based on route
@@ -45,12 +55,15 @@ function Header() {
 
   return (
     <header>
-      <div className="logo">
-        <img
-          src='./Funk.E_ArtLogo'
-          alt="Funk.E_ArtLogo"
-          style={{ width: "100px", height: "50px" }}
-        />
+      <div
+        className={`logo-container ${isHovered ? "hovered" : ""}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div className="logo"></div>
+        {isHovered && (
+          <div className="caption">Designer Logo</div>
+        )}
       </div>
 
       <nav>
