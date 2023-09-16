@@ -1,3 +1,11 @@
+// In terms of your nav links, currently you are 
+//redirecting the page using hrefs and <a> elements. 
+//With react, you have to create different components. 
+//You have the correct logic in your PortfolioContainer.js 
+//so you can do something similar for header.js. You can also 
+//look at ctivity 24 from week 20 on conditional rendering on 
+//how to do it. Here is a resource that may help you also:
+
 import React, { useState, useEffect } from "react";
 import "../styles/Header.css";
 

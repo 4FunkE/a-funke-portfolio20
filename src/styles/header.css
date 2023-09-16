@@ -1,12 +1,14 @@
 :root {
-    --chineseViolet: #71677D;
-    --eggplant: #4A3642;
-    --beige: #DADFC5;
-    --dimGray: #67675F;
-    --olivine: #92B384;
-    --light: #e3e4dd;
-    --Dark: #292028; 
-  }
+  --chineseViolet: #71677D;
+  --eggplant: #4A3642;
+  --beige: #DADFC5;
+  --dimGray: #67675F;
+  --olivine: #92B384;
+  --light: #e3e4dd;
+  --Dark: #292028; 
+  --Header: 'Josefin Slab'; /*Georgia, 'Times New Roman', Times, serif;*/
+  --text: 'Maven Pro'; /*Arial, Helvetica, sans-serif;*/
+}
 
   /* Header container */
 header {
@@ -83,11 +85,12 @@ header {
   background-position: 0% 100%; /* Position the gradient at the bottom */
   padding: 5px 10px; /* Add padding around the active link text */
   border-radius: 5px; /* Add rounded corners */
+  font-family: var(--text), Arial, Helvetica, sans-serif;
 }
 
 /* Other link styles */
 .nav-link {
   text-decoration: none;
   color: var(--Dark);
-  /* Add other link styles here */
+  font-family: var(--Header), Georgia, 'Times New Roman', Times, serif;
 }
