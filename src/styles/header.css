@@ -21,7 +21,7 @@ header {
   flex: 1;
   position: relative;
   background-color: var(--chineseViolet); /* Purple background color */
-  padding: 20px 5px 20px; /* Add padding for spacing */
+  padding: 15px 5px 20px; /* Add padding for spacing */
   display: flex;
   align-items: center;
 }
@@ -69,7 +69,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px; /* Add padding for spacing */
+  padding: 15px 10px 15px; /* Add padding for spacing */
 }
 
 /* Navigation styles */
@@ -77,12 +77,15 @@ header {
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 20px; /* Add spacing between nav items */
+  flex: 2; /* Take up 2/3 of the available space */
+  justify-content: space-between; /* Spread nav items evenly in the container */
 }
 
 .nav-item {
   /* Bounce effect on hover */
   transition: transform 0.2s ease-in-out;
+  padding-left: 20px; /* Add left padding */
+  padding-right: 20px; /* Add right padding */
 }
 
 .nav-item:hover {
@@ -105,4 +108,5 @@ header {
   text-decoration: none;
   color: var(--Dark);
   font-family: var(--Header), Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
