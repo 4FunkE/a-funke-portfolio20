@@ -34,14 +34,8 @@
     align-items: center;
     background-color: var(--chineseViolet); /* Light purple background color */
   }
-  
-  h1 {
-    font-size: 20px; /* Adjust font size as needed */
-    font-family: var(--Header), Georgia, 'Times New Roman', Times, serif;
-    color: var(--beige);
-  }
 
-  h2 {
+  h1 {
     font-size: 36px; /* Adjust font size as needed */
     font-family: var(--Header), Georgia, 'Times New Roman', Times, serif;
     color: var(--beige);

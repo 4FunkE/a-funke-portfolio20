@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/Header.css";
 
 function Header() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, handlePageChange] = useState("Home");
   const [isHovered, setIsHovered] = useState(false); // State to track hover
 
   useEffect(() => {
@@ -41,28 +41,25 @@ function Header() {
   const handleRouteChange = (route) => {
     // Update currentPage based on route
     switch (route) {
-      case "/":
-        setCurrentPage("Home");
+      case "/home":
+        handlePageChange("Home");
         break;
       case "/aboutMe":
-        setCurrentPage("About");
+        handlePageChange("About");
         break;
       case "/works":
-        setCurrentPage("Works");
+        handlePageChange("Works");
         break;
       case "/contact":
-        setCurrentPage("Contact");
-        break;
-      case "/resume":
-        setCurrentPage("Resume");
+        handlePageChange("Contact");
         break;
       default:
-        setCurrentPage("Home"); // Set a default page for unknown routes
+        handlePageChange("Home"); // Set a default page for unknown routes
     }
   };
 
   return (
-    <header>
+    <header class='logo-container'>
       <div
         className={`logo-container ${isHovered ? "hovered" : ""}`}
         onMouseEnter={handleMouseEnter}
@@ -74,11 +71,12 @@ function Header() {
         )}
       </div>
 
-      <nav>
+      <nav class= 'nav-container'>
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <a
-              href="/"
+              href="#home"
+              onClick={() => handlePageChange('Home')}
               className={currentPage === "Home" ? "nav-link active" : "nav-link"}
             >
               Home
@@ -86,7 +84,8 @@ function Header() {
           </li>
           <li className="nav-item">
             <a
-              href="/aboutMe"
+              href="#aboutMe"
+              onClick={() => handlePageChange('About')}
               className={currentPage === "About" ? "nav-link active" : "nav-link"}
             >
               About
@@ -94,7 +93,8 @@ function Header() {
           </li>
           <li className="nav-item">
             <a
-              href="/works"
+              href="#works"
+              onClick={() => handlePageChange('Works')}
               className={currentPage === "Works" ? "nav-link active" : "nav-link"}
             >
               Works
@@ -102,18 +102,11 @@ function Header() {
           </li>
           <li className="nav-item">
             <a
-              href="/contact"
+              href="#contact"
+              onClick={() => handlePageChange('Contact')}
               className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
             >
               Contact
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="/resume"
-              className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
-            >
-              Resume
             </a>
           </li>
         </ul>
