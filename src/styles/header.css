@@ -15,13 +15,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; /* Add padding for spacing */
 }
 
-.logo-container {
+.flex {
+  flex: 1;
   position: relative;
   background-color: var(--chineseViolet); /* Purple background color */
-  flex: 1; /* Take up 1/3 of the available space */
+  padding: 20px 5px 20px; /* Add padding for spacing */
   display: flex;
   align-items: center;
 }

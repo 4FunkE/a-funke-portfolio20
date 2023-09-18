@@ -9,7 +9,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Header.css";
 
-function Header() {
+function Header(props) {
   const [currentPage, handlePageChange] = useState("Home");
   const [isHovered, setIsHovered] = useState(false); // State to track hover
 
@@ -59,9 +59,10 @@ function Header() {
   };
 
   return (
-    <header class='logo-container'>
-      <div
-        className={`logo-container ${isHovered ? "hovered" : ""}`}
+    <header>
+      <div class='flex'>
+      <div 
+        className= {`logo-container ${isHovered ? "hovered" : ""}`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
@@ -70,13 +71,14 @@ function Header() {
           <div className="caption">Designer Logo</div>
         )}
       </div>
+      </div>
 
       <nav class= 'nav-container'>
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <a
               href="#home"
-              onClick={() => handlePageChange('Home')}
+              onClick={() => props.handlePageChange('Home')}
               className={currentPage === "Home" ? "nav-link active" : "nav-link"}
             >
               Home
@@ -85,7 +87,7 @@ function Header() {
           <li className="nav-item">
             <a
               href="#aboutMe"
-              onClick={() => handlePageChange('About')}
+              onClick={() => props.handlePageChange('About')}
               className={currentPage === "About" ? "nav-link active" : "nav-link"}
             >
               About
@@ -94,7 +96,7 @@ function Header() {
           <li className="nav-item">
             <a
               href="#works"
-              onClick={() => handlePageChange('Works')}
+              onClick={() => props.handlePageChange('Works')}
               className={currentPage === "Works" ? "nav-link active" : "nav-link"}
             >
               Works
@@ -103,7 +105,7 @@ function Header() {
           <li className="nav-item">
             <a
               href="#contact"
-              onClick={() => handlePageChange('Contact')}
+              onClick={() => props.handlePageChange('Contact')}
               className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
             >
               Contact
