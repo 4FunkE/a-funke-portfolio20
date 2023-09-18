@@ -79,7 +79,7 @@ function Header(props) {
             <a
               href="#home"
               onClick={() => props.handlePageChange('Home')}
-              className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+              className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
             >
               Home
             </a>
@@ -88,7 +88,7 @@ function Header(props) {
             <a
               href="#aboutMe"
               onClick={() => props.handlePageChange('About')}
-              className={currentPage === "About" ? "nav-link active" : "nav-link"}
+              className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
             >
               About
             </a>
@@ -97,7 +97,7 @@ function Header(props) {
             <a
               href="#works"
               onClick={() => props.handlePageChange('Works')}
-              className={currentPage === "Works" ? "nav-link active" : "nav-link"}
+              className={props.currentPage === "Works" ? "nav-link active" : "nav-link"}
             >
               Works
             </a>
@@ -106,7 +106,7 @@ function Header(props) {
             <a
               href="#contact"
               onClick={() => props.handlePageChange('Contact')}
-              className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+              className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
             >
               Contact
             </a>
