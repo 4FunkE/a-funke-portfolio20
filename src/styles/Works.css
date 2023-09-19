@@ -63,6 +63,16 @@
   overflow-y: scroll;
 }
 
+.project-description::-webkit-scrollbar {
+  width: 10px; /* Adjust the width of the scroll bar */
+}
+
+/* Style the thumb (the draggable part of the scroll bar) */
+.project-description::-webkit-scrollbar-thumb {
+  background-color: var(--Dark);
+  border-radius: 5px; /* Add rounded corners to the thumb */
+}
+
 /* Customize the carousel navigation arrows */
 .carousel .control-arrow {
   font-size: 24px; /* Adjust arrow size as needed */
