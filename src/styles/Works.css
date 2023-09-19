@@ -58,6 +58,11 @@
   color: var(--beige);
 }
 
+.project-description {
+  max-height: 200px; /* Adjust this value to control the maximum height */
+  overflow-y: scroll;
+}
+
 /* Customize the carousel navigation arrows */
 .carousel .control-arrow {
   font-size: 24px; /* Adjust arrow size as needed */
