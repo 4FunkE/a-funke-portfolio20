@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.94dad76a.css",
-    "main.js": "/static/js/main.cbf821ee.js",
-    "static/media/eyePainting.png": "/static/media/eyePainting.989927a34957465be858.png",
-    "static/media/octoPainting.png": "/static/media/octoPainting.0dd9f720387da35c119e.png",
-    "static/media/Funk.E_ArtLogo.png": "/static/media/Funk.E_ArtLogo.ba97b6a46527fcea9af4.png",
-    "index.html": "/index.html",
-    "main.94dad76a.css.map": "/static/css/main.94dad76a.css.map",
-    "main.cbf821ee.js.map": "/static/js/main.cbf821ee.js.map"
+    "main.css": "/a-funke-portfolio20/static/css/main.4d04b237.css",
+    "main.js": "/a-funke-portfolio20/static/js/main.8d664c2e.js",
+    "static/media/eyePainting.png": "/a-funke-portfolio20/static/media/eyePainting.989927a34957465be858.png",
+    "static/media/octoPainting.png": "/a-funke-portfolio20/static/media/octoPainting.0dd9f720387da35c119e.png",
+    "static/media/Funk.E_ArtLogo.png": "/a-funke-portfolio20/static/media/Funk.E_ArtLogo.ba97b6a46527fcea9af4.png",
+    "index.html": "/a-funke-portfolio20/index.html",
+    "main.4d04b237.css.map": "/a-funke-portfolio20/static/css/main.4d04b237.css.map",
+    "main.8d664c2e.js.map": "/a-funke-portfolio20/static/js/main.8d664c2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.94dad76a.css",
-    "static/js/main.cbf821ee.js"
+    "static/css/main.4d04b237.css",
+    "static/js/main.8d664c2e.js"
   ]
 }
