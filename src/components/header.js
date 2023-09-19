@@ -36,8 +36,8 @@ function Header(props) {
       case "/home":
         handlePageChange("Home");
         break;
-      case "/AboutMe":
-        handlePageChange("About");
+      case "/aboutMe":
+        handlePageChange("AboutMe");
         break;
       case "/works":
         handlePageChange("Works");
@@ -52,7 +52,7 @@ function Header(props) {
 
   return (
     <header>
-      <div class='flex'>
+      <div className='flex'>
       <div 
         className= {`logo-container ${isHovered ? "hovered" : ""}`}
         onMouseEnter={handleMouseEnter}
@@ -65,7 +65,7 @@ function Header(props) {
       </div>
       </div>
 
-      <nav class= 'nav-container'>
+      <nav className= 'nav-container'>
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <a
@@ -79,8 +79,8 @@ function Header(props) {
           <li className="nav-item">
             <a
               href="#aboutMe"
-              onClick={() => props.handlePageChange('About')}
-              className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
+              onClick={() => props.handlePageChange('AboutMe')}
+              className={props.currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
             >
               About
             </a>

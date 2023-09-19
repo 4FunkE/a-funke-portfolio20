@@ -11,7 +11,7 @@ function Footer() {
       <button className="scroll-to-top-button" onClick={scrollToTop}>
         Scroll to Top
       </button>
-      <p class='p'>Funk.E_Codes</p>
+      <p className='footerTag'>Funk.E_Codes</p>
     </footer>
   );
 }

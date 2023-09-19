@@ -18,7 +18,7 @@
   background: linear-gradient(transparent, var(--dimGray)); /* Set the background color to beige */
 }
 
-.p {
+.footerTag {
   color: var(--Dark);
   font-family: var(--Header), Georgia, 'Times New Roman', Times, serif;
 }
