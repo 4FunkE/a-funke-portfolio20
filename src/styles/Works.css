@@ -10,8 +10,66 @@
   --text: 'Maven Pro'; /*Arial, Helvetica, sans-serif;*/
 }
 
-  /* Works-container
+.Works-container {
+  max-width: 1200px; /* Adjust the container width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
 
-  Works-header
+.Works-header {
+  margin-bottom: 30px;
+}
 
-  project-carousel */
+.Works-header h2 {
+  font-size: 36px; /* Adjust font size as needed */
+  font-family: var(--Header) Georgia, 'Times New Roman', Times, serif;
+  color: var(--olivine);
+}
+
+.Works-header p {
+  font-size: 18px; /* Adjust font size as needed */
+  font-family: var(--text) Arial, Helvetica, sans-serif;
+  color: var(--dimGray);
+}
+
+.project-carousel {
+  margin-top: 30px;
+}
+
+/* Style for individual project slides */
+.project-carousel .slide {
+  background-color: var(--chineseViolet); /* Background color for each slide */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px var(--olivine)(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.project-carousel .slide img {
+  max-width: 100%; /* Ensure images don't exceed the slide width */
+  height: auto;
+  border-radius: 8px; /* Rounded corners for images */
+  margin-bottom: 10px;
+}
+
+.project-carousel .slide p {
+  font-size: 16px; /* Adjust font size as needed */
+  font-family: var(--text) Arial, Helvetica, sans-serif;
+  color: var(--beige);
+}
+
+/* Customize the carousel navigation arrows */
+.carousel .control-arrow {
+  font-size: 24px; /* Adjust arrow size as needed */
+  color: var(--olivine);
+}
+
+/* Style the carousel indicators (dots) */
+.carousel .dot {
+  background-color: var(--olivine);
+}
+
+/* Style the currently active indicator */
+.carousel .dot.selected {
+  background-color: var(--dimGray);
+}
