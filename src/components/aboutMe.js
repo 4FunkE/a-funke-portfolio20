@@ -17,12 +17,13 @@ function AboutMe() {
         Photography, Jewelry/Metal, Drawing, and Glass.
         </p>
         <div className="profile-image">
-          <img src="../../public/images/selfie.png" alt="Your Name" />
+          <img src="/images/selfie.png" alt="Your Name" />
         </div>
       </div>
       <div className="bottom-bar">
         <p>I am a Jack of all trades!</p>
-        <button className='jackButton'>Click Me</button>
+        <a href="https://instagram.com/funk.e_art"><button className='artButton'>Art</button></a>
+        <a href="https://www.artsonia.com/schools/school.asp?id=154682"><button className='teachButton'>Teaching</button></a>
       </div>
     </div>
   );
