@@ -15,7 +15,7 @@
     padding: 20px; /* Add padding as needed */
   }
   
-  h2 {
+  .aboutTitle {
     font-size: 24px; /* Adjust font size as needed */
   }
   
@@ -25,7 +25,7 @@
     align-items: center;
   }
   
-  p {
+  .aboutDescription {
     margin-top: 20px; /* Add margin as needed */
     text-align: center;
     font-size: 16px; /* Adjust font size as needed */
@@ -48,7 +48,7 @@
     width: 100%;
   }
   
-  button {
+  .jackButton {
     background-color: var(--Dark); /* Button background color */
     color: var(--light); /* Button text color */
     border: none;
@@ -56,6 +56,6 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .jackButton:hover {
     background-color: var(--olivine); /* Button background color on hover */
   }

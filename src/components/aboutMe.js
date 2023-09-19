@@ -4,9 +4,9 @@ import '../styles/AboutMe.css'; // Import your CSS for styling
 function AboutMe() {
   return (
     <div className="about-me-container">
-      <h2>About</h2>
+      <h2 class='aboutTitle'>About</h2>
       <div className="about-content">
-        <p>
+        <p class='aboutDescription'>
         I am an artist and teacher, and developing my skills in coding. 
         I am a BFA/MS graduate of Pratt Institute, School of Art and Design 
         located in Brooklyn, New York. For 6 years my field of study has been 
@@ -22,7 +22,7 @@ function AboutMe() {
       </div>
       <div className="bottom-bar">
         <p>I am a Jack of all trades!</p>
-        <button>Click Me</button>
+        <button class='jackButton'>Click Me</button>
       </div>
     </div>
   );
