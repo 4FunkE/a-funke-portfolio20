@@ -20,19 +20,19 @@ function Works() {
           {/* Individual project slides here */}
           <div>
             <img src='/works/codeQuiz.png' alt="codeQuiz" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://4funke.github.io/quiz-for-coders-funk/">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/eCommerceV.png" alt="eCommerceV" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://drive.google.com/file/d/1-aT0zIgB_8ntHSX02-b2sLZ8LYU-dqJY/view">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/employeeDbV.png" alt="employeeDbV" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://drive.google.com/file/d/1yrz7WXBZnYWIXs9F_yrXrT-nXjv08tSp/view">
               <p>Project 1 Description</p>
             </a>
           </div>
@@ -44,31 +44,31 @@ function Works() {
           </div>
           <div>
             <img src="/works/logoGeneratorV.png" alt="logoGeneratorV" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://drive.google.com/file/d/1xMz8emwvcY_iMejW15LJNOEgtDO1w4QV/view">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/notes.png" alt="notes" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://peaceful-sea-55951-74e9b2c9bca6.herokuapp.com/">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/passwordGenerator.png" alt="passwordGenerator" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://4funke.github.io/password-generator-challenge-funk/">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/portfolio1.png" alt="portfolio1" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://4funke.github.io/funk-code-protfolio/">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/READMEGeneratorV.png" alt="READMEGeneratorV" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://drive.google.com/file/d/1DSXcjSqRCzwha_lXL1ij8fyZMRQ6od0U/view">
               <p>Project 1 Description</p>
             </a>
           </div>
@@ -86,19 +86,19 @@ function Works() {
           </div>
           <div>
             <img src="/works/techBlog.png" alt="techBlog" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://efunk-tech-blog-f66ef9d4dfae.herokuapp.com/">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/weatherApp.png" alt="weatherApp" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://4funke.github.io/weather-dashboard-funk/">
               <p>Project 1 Description</p>
             </a>
           </div>
           <div>
             <img src="/works/workDayScheduler.png" alt="workDayScheduler" />
-            <a href="http://4funke.github.io/challenge1/">
+            <a href="https://4funke.github.io/funkE-Scheduler-Challenge/">
               <p>Project 1 Description</p>
             </a>
           </div>
