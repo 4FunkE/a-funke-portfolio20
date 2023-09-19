@@ -20,60 +20,89 @@ function Works() {
           {/* Individual project slides here */}
           <div>
             <img src='/works/codeQuiz.png' alt="codeQuiz" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/eCommerceV.png" alt="eCommerceV" />
-            <p>Project 2 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/employeeDbV.png" alt="employeeDbV" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/horiseonRefactor.png" alt="horiseonRefactor" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/logoGeneratorV.png" alt="logoGeneratorV" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/notes.png" alt="notes" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/passwordGenerator.png" alt="passwordGenerator" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/portfolio1.png" alt="portfolio1" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/READMEGeneratorV.png" alt="READMEGeneratorV" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
-            <img src="/works/studentMark.png" alt="studentMark" />
-            <p>Project 1 Description</p>
+            <img src="/works/studentMark.png" alt="🍎studentMark" />
+              <a href="https://shielded-everglades-30738-44134476de15.herokuapp.com/">
+                <p>Project 1 Description</p>
+              </a>
           </div>
           <div>
             <img src="/works/studyGuide.png" alt="studyGuide" />
-            <p>Project 1 Description</p>
+            <a href="https://4funke.github.io/prework-study-guide/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/techBlog.png" alt="techBlog" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/weatherApp.png" alt="weatherApp" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
           <div>
             <img src="/works/workDayScheduler.png" alt="workDayScheduler" />
-            <p>Project 1 Description</p>
+            <a href="http://4funke.github.io/challenge1/">
+              <p>Project 1 Description</p>
+            </a>
           </div>
+          {/* https://braymurph.github.io/Dict-Pic/ */}
         </Carousel>
       </div>
     </div>
