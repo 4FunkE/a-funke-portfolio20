@@ -36,7 +36,7 @@ function Header(props) {
       case "/home":
         handlePageChange("Home");
         break;
-      case "/aboutMe":
+      case "/AboutMe":
         handlePageChange("About");
         break;
       case "/works":

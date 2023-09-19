@@ -15,13 +15,13 @@ function Contact() {
 
         <div className="social-media-icons">
           {/* Social Media Links */}
-          <a href="https://linkedin.com/in/your_linkedin_profile">
+          <a href="https://linkedin.com/in/emily-funk-7019409b">
             <FaLinkedin size={32} />
           </a>
-          <a href="https://instagram.com/your_instagram_profile">
+          <a href="https://instagram.com/funk.e_art">
             <FaInstagram size={32} />
           </a>
-          <a href="https://github.com/your_github_profile">
+          <a href="https://github.com/4FunkE">
             <FaGithub size={32} />
           </a>
         </div>
@@ -47,7 +47,7 @@ function Contact() {
 
         {/* Resume Circle Button */}
         <div className="download-resume">
-          <a href="/path/to/resume.pdf" download className="resume-button">
+          <a href="/public/resume.pdf" download className="resume-button">
             Resume
           </a>
         </div>
