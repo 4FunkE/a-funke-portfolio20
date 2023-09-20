@@ -2,12 +2,13 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+**Motivation**: I developed this portfolio with the aim of showcasing my skills and expertise as a full-stack developer, making it easier for potential employers to evaluate my capabilities.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+**Purpose**: The primary goal of this project is to provide a comprehensive overview of my web development skills and past projects in one centralized location.
+
+**Problem Solved**: By creating this portfolio, I have resolved the challenge of presenting my skills and qualifications effectively to prospective employers.
+
+**Key Learnings**: During the development of this portfolio, I acquired valuable experience in building interactive web applications using React.
 
 ## Table of Contents
 
@@ -26,106 +27,144 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Follow these steps to set up the development environment and run the project:
 
-1. **Clone the Repository from GitHub:** Alternatively, you can download the ZIP folder from the repository's GitHub page.
+1. **Clone the Repository:** Start by cloning this repository to your local machine. You can do this using the following command:
 ```bash
-git clone https://github.com/4funke/Employees-of-funk.co.git
+git clone https://github.com/4funke/a-funke-portfolio.git
 ```
-2. **Open the Repository in a Source Code Editor:**
-Open your preferred source code editor (e.g., Visual Studio Code, Sublime Text) and navigate to the cloned repository's directory.
+2. **Navigate to the Project Directory:**
+Change your working directory to the cloned project folder:
+```bash
+cd a-funke-portfolio
+```
+3. **Install Dependencies:**
+Install the necessary dependencies using your preferred package manager (e.g., npm or yarn). Run the following command:
+```bash
+npm install
+```
+4. **Start the Development Server:**
+Once the dependencies are installed, start the development server to run the project locally:
+```bash
+npm start
+```
+5. **Access the Application:**
+Open your web browser and visit http://localhost:3000 to access the running application.
+
+That's it! You should now have the development environment set up, and the project should be running locally on your machine.
 
 ### Additional Resources
 - [Deployed Application Link](#deployed-application-link) Check out our live application
 - [GitHub Repository](#github-repository) For more details and to explore the code
 
 ## Usage Instruction: 
-#### Follow these steps to effectively utilize our application:
-Provide instructions and examples for use.
+#### To effectively utilize our application, follow these step-by-step instructions:
 
-1. Visit the deployed application's homepage and login or sign up for an account.
-2. Choose a teacher from the dropdown menu and rate them using the apple scale.
-3. Write a comment about the teacher's performance.
-4. Click the "Post" button to submit your comment and rating.
-5. To review your contributions, click on "Profile." Don't forget to log out when you're done!
+### 1. Navigate the Homepage
+- Visit the deployed application's homepage by entering the URL in your web browser.
 
-By following these steps, you'll be seamlessly...
+### 2. Explore Sections
+- Use the navigation bar at the top to explore different sections of the application:
+  - Click on "About" to learn more about the developer.
+  - Click on "Works" to view a portfolio of various web applications.
+  - Click on "Contact" to get in touch with the developer.
+
+### 3. About Section
+- In the "About" section, you can:
+  - Read a brief introduction about the developer.
+  - Learn about their skills, experiences, and interests.
+
+### 4. Works Section
+- In the "Works" section, you can:
+  - Browse through a collection of web applications.
+  - Click on individual projects to view detailed information.
+  - Explore project descriptions, images, and additional details.
+
+### 5. Contact Section
+- In the "Contact" section, you can:
+  - Fill out the provided contact form to send a message to the developer.
+  - Connect with the developer on social media platforms via the provided icons.
+
+By following these detailed instructions, you'll be able to navigate and utilize the application's features seamlessly.
 
 ## Deployed Application Link:
-[Deployed Application Link](...)
+[Deployed Application Link](https://4funke.github.io/a-funke-portfolio20/)
 
 ## GitHub Repository:
-[GitHub Repository](...)
+[GitHub Repository](https://github.com/4FunkE/a-funke-portfolio20)
 
 ## Screenshot
-![image](./public/image/Student-mark-image.png)
+![image](./public/images/WebsiteScreenshot.png)
 
 ## Built With:
-This project was developed using the following technologies and tools:
-- [JSON](https://www.npmjs.com/package/json)
-- [Node.js](https://nodejs.org/en/blog/release/v16.18.1/)
-- [Dotenv](https://www.npmjs.com/package/dotenv)
-- [Express](https://www.npmjs.com/package/express)
-- [Node MySql2](https://www.npmjs.com/package/mysql2)
-- [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Bcrypt](https://www.npmjs.com/package/bcrypt)
-- [Sequelize](https://www.npmjs.com/package/connect-session-sequelize)
-- [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
-- [Express-Session](https://www.npmjs.com/package/express-session)
-### Technologies and Tools Overview
-- JSON: Used for data representation and exchange.
-- Node.js: The runtime environment for executing JavaScript code on the server.
-- Dotenv:  Enables the usage of environment variables to manage configuration.
-- Express: A fast and minimal web application framework for Node.js.
-- Node MySql2: A MySQL driver for Node.js.
-- Inquirer: Facilitates user interactions in the command-line interface.
-- Visual Studio Code: The integrated development environment used for coding.
-- Sequelize: Connect Session Store
-- Bcrypt:
-- Express Handlebars:
-- Express-session:
+
+This project was developed using a variety of technologies and tools to ensure its functionality and interactivity. Here's an overview of the key technologies and tools used:
+
+- **React**: A JavaScript library for building user interfaces. React was the core framework used to create the frontend of the application, allowing for the development of reusable UI components.
+
+- **React Router**: A library for handling routing in a React application. It enabled the creation of different pages and navigation within the app.
+
+- **React Icons**: A library that provides a collection of customizable icons. It was used to enhance the visual appeal of the user interface with various icons.
+
+- **React Responsive Carousel**: A carousel component for React applications. It facilitated the implementation of an interactive project carousel in the "Works" section.
+
+- **JSON**: A lightweight data interchange format. JSON was utilized for data storage and manipulation within the application.
+
+- **gh-pages**: A tool for deploying a React app to GitHub Pages. It enabled the project to be easily hosted and accessible online.
+
+- **Visual Studio Code**: An integrated development environment (IDE) for coding. Visual Studio Code served as the primary code editor for the project, providing a convenient environment for development.
+
+These technologies and tools played a crucial role in creating a dynamic and engaging web application.
 
 ## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 Collaborators: 
 - AskBCS Learning Assistants
 - Andrew Bautista-Instructor
 - Will-TA
-- Daniel Miranda: https://github.com/djamiranda
-- Starter code provided by [miniture-eureka](https://github.com/coding-boot-camp/miniature-eureka)
 
 ## License
 
 This application is covered under the MIT license. [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## Features
 
-If your project has a lot of features, list them here. Communicate the capabilities of your project. Here's a guide you can use to structure your features section:
+1. **Homepage:** The main landing page of your portfolio, providing an introduction and navigation to other sections.
 
-- **Feature Name:** 
-  - Description: A brief description of what this feature accomplishes.
-  - Usage Instructions: How users can interact with this feature.
-  - Example (if applicable): A simple example of how the feature works.
-- **Feature Name:** 
-  - Description: A brief description of what this feature accomplishes.
-  - Usage Instructions: How users can interact with this feature.
-  - Example (if applicable): A simple example of how the feature works.
+2. **About Me:** A section where you provide information about yourself, your skills, background, and interests.
+
+3. **Works/Projects:** A portfolio showcasing your previous works, projects, or applications. Each project may include:
+   - Project name and description
+   - Screenshots or images of the project
+   - A link to the live project (if applicable)
+   - Technologies used
+   - Brief explanations of the project's purpose and your contributions
+
+4. **Contact:** A section that allows visitors to get in touch with you. It may include a contact form with fields for name, email, and message, as well as links to your social media profiles and email address.
+
+5. **Resume:** A downloadable PDF version of your resume, allowing visitors to access your full professional background.
+
+6. **Navigation:** A navigation menu or bar that helps users move between different sections of your portfolio.
+
+7. **Interactive Elements:** Features like hover effects, animations, or interactive components that enhance user experience and engagement.
+
+8. **Responsive Design:** Ensuring that your portfolio is accessible and user-friendly on various devices, including desktops, tablets, and mobile phones.
+
+9. **Styling and Theming:** Custom styling and theming to create a visually appealing and cohesive design.
+
+10. **Deployment:** The ability to deploy your portfolio website to a hosting platform or server for public access.
+
+11. **Accessibility:** Ensuring that your website is accessible to individuals with disabilities, adhering to web accessibility standards.
+
+12. **SEO Optimization:** Implementing search engine optimization (SEO) techniques to improve your website's visibility on search engines like Google.
+
+13. **Social Media Integration:** Links to your social media profiles, allowing visitors to connect with you on various platforms.
+
+14. **Project Carousel:** An interactive carousel or slider displaying your projects for easy browsing.
 
 ## How to Contribute
 
@@ -138,7 +177,7 @@ To contribute to our project, follow these steps:
 1. Fork the Repository: Fork our repository to your own GitHub account by clicking the "Fork" button.
 2. Clone the Repository: Clone the forked repository to your local machine using:
 ```bash
-git clone https://github.com/4funke/Employees-of-funk.co.git 
+git clone https://github.com/4funke/a-funke-portfolio.git 
 ```
 3. Create a New Branch: Create a new branch to work on your contribution using:
 ```bash
@@ -146,9 +185,9 @@ git checkout -b your-feature-branch
 ```
 4. Make Changes: Make your desired changes or additions to the codebase.
 5. Test Your Changes: Test your changes thoroughly to ensure they work as expected.
-6. Commit Your Changes: Commit your changes with a clear and concise commit message:
+6. Commit Your Changes: Commit your changes with clear and concise commit messages that describe the purpose of your changes. For example:
 ```bash
-git commit -m "Add: Brief description of your changes" 
+git commit -m "Add: Brief description of your changes"  
 ```
 7. Push to Your Fork: Push your changes to your forked repository:
 ```bash
@@ -163,18 +202,7 @@ If you're unsure about where to start or need assistance at any point, feel free
 
 ## Tests
 
-We have implemented a comprehensive testing suite to ensure the stability and functionality of our application. Our testing includes unit tests, integration tests, and end-to-end tests to cover various scenarios. To run the tests, follow these steps:
-
-1. Ensure you have all dependencies installed by running:
-```bash
-npm i 
-```
-2. Run the tests using the following command:
-```bash
-npm test 
-```
-
-Our testing suite provides confidence in the quality of our code and ensures that any changes made to the codebase don't introduce regressions.
+n/a
 
 ## Questions
 If you have any questions or need further assistance, feel free to reach out. You can contact me through my [GitHub profile](https://github.com/4FunkE) or via email at 4funkecodes@gmail.com. I'm here to help and support you in any way I can. Have a funke day!
