@@ -19,7 +19,7 @@ function Works() {
         <Carousel>
           {/* Individual project slides here */}
           <div className="slide">
-            <img src='/a-funke-portfolio20/works/codeQuiz.png' alt="codeQuiz" />
+            <img src='./works/codeQuiz.png' alt="codeQuiz" />
             <a href="https://4funke.github.io/quiz-for-coders-funk/">
               <p>Code Quiz</p>
             </a>
@@ -30,7 +30,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/eCommerceV.png" alt="eCommerceV" />
+            <img src="./works/eCommerceV.png" alt="eCommerceV" />
             <a href="https://drive.google.com/file/d/1-aT0zIgB_8ntHSX02-b2sLZ8LYU-dqJY/view">
               <p>E-Commerce Video</p>
             </a>
@@ -45,7 +45,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/employeeDbV.png" alt="employeeDbV" />
+            <img src="./works/employeeDbV.png" alt="employeeDbV" />
             <a href="https://drive.google.com/file/d/1yrz7WXBZnYWIXs9F_yrXrT-nXjv08tSp/view">
               <p>Employee Database Video</p>
             </a>
@@ -59,7 +59,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/horiseonRefactor.png" alt="horiseonRefactor" />
+            <img src="./works/horiseonRefactor.png" alt="horiseonRefactor" />
             <a href="http://4funke.github.io/challenge1/">
               <p>Horiseon, Refactored App</p>
             </a>
@@ -75,7 +75,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/logoGeneratorV.png" alt="logoGeneratorV" />
+            <img src="./works/logoGeneratorV.png" alt="logoGeneratorV" />
             <a href="https://drive.google.com/file/d/1xMz8emwvcY_iMejW15LJNOEgtDO1w4QV/view">
               <p>Logo Generator Video</p>
             </a>
@@ -86,7 +86,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/notes.png" alt="notes" />
+            <img src="./works/notes.png" alt="notes" />
             <a href="https://peaceful-sea-55951-74e9b2c9bca6.herokuapp.com/">
               <p>Note Taker</p>
             </a>
@@ -97,7 +97,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/passwordGenerator.png" alt="passwordGenerator" />
+            <img src="./works/passwordGenerator.png" alt="passwordGenerator" />
             <a href="https://4funke.github.io/password-generator-challenge-funk/">
               <p>Password Generator</p>
             </a>
@@ -108,7 +108,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/portfolio1.png" alt="portfolio1" />
+            <img src="./works/portfolio1.png" alt="portfolio1" />
             <a href="https://4funke.github.io/funk-code-protfolio/">
               <p>Portfolio Website</p>
             </a>
@@ -119,7 +119,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/READMEGeneratorV.png" alt="READMEGeneratorV" />
+            <img src="./works/READMEGeneratorV.png" alt="READMEGeneratorV" />
             <a href="https://drive.google.com/file/d/1DSXcjSqRCzwha_lXL1ij8fyZMRQ6od0U/view">
               <p>README Generator Video</p>
             </a>
@@ -130,7 +130,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/studentMark.png" alt="🍎studentMark" />
+            <img src="./works/studentMark.png" alt="🍎studentMark" />
               <a href="https://shielded-everglades-30738-44134476de15.herokuapp.com/">
                 <p>🍎Student Mark</p>
               </a>
@@ -141,7 +141,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/studyGuide.png" alt="studyGuide" />
+            <img src="./works/studyGuide.png" alt="studyGuide" />
             <a href="https://4funke.github.io/prework-study-guide/">
               <p>Study Guide</p>
             </a>
@@ -152,7 +152,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/techBlog.png" alt="techBlog" />
+            <img src="./works/techBlog.png" alt="techBlog" />
             <a href="https://efunk-tech-blog-f66ef9d4dfae.herokuapp.com/">
               <p>A Tech Blog</p>
             </a>
@@ -166,7 +166,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/weatherApp.png" alt="weatherApp" />
+            <img src="./works/weatherApp.png" alt="weatherApp" />
             <a href="https://4funke.github.io/weather-dashboard-funk/">
               <p>Weather Application</p>
             </a>
@@ -177,7 +177,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/workDayScheduler.png" alt="workDayScheduler" />
+            <img src="./works/workDayScheduler.png" alt="workDayScheduler" />
             <a href="https://4funke.github.io/funkE-Scheduler-Challenge/">
               <p>Work Day Scheduler</p>
             </a>
@@ -188,7 +188,7 @@ function Works() {
             </div>
           </div>
           <div className="slide">
-            <img src="/a-funke-portfolio20/works/dictPic.png" alt="Dict-Pic" />
+            <img src="./works/dictPic.png" alt="Dict-Pic" />
             <a href="https://braymurph.github.io/Dict-Pic/">
               <p>Dict Pic</p>
             </a>
