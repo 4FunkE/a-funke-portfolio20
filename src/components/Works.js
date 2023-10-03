@@ -117,7 +117,7 @@ function Works() {
       id: 16,
       name: 'Fitness Flavors',
       description: 'Fitness-Flavors is a web application designed to help you achieve your fitness goals with ease and precision. It provides a wide range of features to support your fitness journey.',
-      imageSrc: './works/fitnessFlavors',
+      imageSrc: './works/fitnessFlavors.png',
       link: 'https://fitness-flavors-6c56562cb291.herokuapp.com/ ',
     },
   ];

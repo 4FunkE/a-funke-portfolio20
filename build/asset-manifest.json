@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/a-funke-portfolio20/static/css/main.4d04b237.css",
-    "main.js": "/a-funke-portfolio20/static/js/main.a90f188c.js",
+    "main.js": "/a-funke-portfolio20/static/js/main.ae36ba54.js",
     "static/media/eyePainting.png": "/a-funke-portfolio20/static/media/eyePainting.989927a34957465be858.png",
     "static/media/octoPainting.png": "/a-funke-portfolio20/static/media/octoPainting.0dd9f720387da35c119e.png",
     "static/media/Funk.E_ArtLogo.png": "/a-funke-portfolio20/static/media/Funk.E_ArtLogo.ba97b6a46527fcea9af4.png",
     "index.html": "/a-funke-portfolio20/index.html",
     "main.4d04b237.css.map": "/a-funke-portfolio20/static/css/main.4d04b237.css.map",
-    "main.a90f188c.js.map": "/a-funke-portfolio20/static/js/main.a90f188c.js.map"
+    "main.ae36ba54.js.map": "/a-funke-portfolio20/static/js/main.ae36ba54.js.map"
   },
   "entrypoints": [
     "static/css/main.4d04b237.css",
-    "static/js/main.a90f188c.js"
+    "static/js/main.ae36ba54.js"
   ]
 }

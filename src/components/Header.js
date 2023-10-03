@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/Header.css";
 
 function Header(props) {
-  const [currentPage, handlePageChange] = useState("Home");
+  const [handlePageChange] = useState("Home");
   const [isHovered, setIsHovered] = useState(false); // State to track hover
 
   useEffect(() => {
