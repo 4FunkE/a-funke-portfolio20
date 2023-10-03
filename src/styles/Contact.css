@@ -126,13 +126,31 @@
   text-align: center; /* Center-align the text horizontally */
   line-height: 100px; /* Center-align the text vertically */
   text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Bold font */
   font-size: 16px; /* Adjust the font size as needed */
   margin-top: 20px; /* Adjust the margin as needed */
   transition: background-color 0.3s ease, transform 0.3s ease; /* Add transitions for a hover effect */
 }
 
 .download-resume a:hover {
+  background-color: var(--chineseViolet); /* Change the background color on hover */
+  transform: scale(1.1); /* Scale the button slightly on hover */
+}
+
+.download-letter a {
+  display: inline-block;
+  background-color: var(--olivine); /* Choose your desired background color */
+  color: var(--light); /* Text color */
+  width: 80px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  text-align: center; /* Center-align the text horizontally */
+  border-radius: 5px;
+  padding: 7px 5px 0px 0px;
+  font-size: 16px; /* Adjust the font size as needed */
+  margin-top: 30px; /* Adjust the margin as needed */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transitions for a hover effect */
+}
+
+.download-letter a:hover {
   background-color: var(--chineseViolet); /* Change the background color on hover */
   transform: scale(1.1); /* Scale the button slightly on hover */
 }

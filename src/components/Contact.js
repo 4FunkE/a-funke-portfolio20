@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import '../styles/Contact.css'; // Import your CSS for styling
-import resume from '../../public/FunkE-Resume.pdf'; //import my resume
+import resume from '../FunkE-Resume.pdf'; //import my resume
+import letter from '../FunkE-CoverLetter-all.pdf'; //import my resume
+
 
 function Contact() {
   return (
@@ -48,8 +50,14 @@ function Contact() {
 
         {/* Resume Circle Button */}
         <div className="download-resume">
-          <a href={resume} download="./public/FunkE-Resume.pdf" className="resume-button">
+          <a href={resume} download="./src/FunkE-Resume.pdf" className="resume-button">
             Resume
+          </a>
+        </div>
+         {/* Resume Circle Button */}
+         <div className="download-letter">
+          <a href={letter} download="./src/FunkE-CoverLetter-all.pdf" className="Letter">
+            Letter
           </a>
         </div>
       </div>
