@@ -113,6 +113,13 @@ function Works() {
       imageSrc: './works/dictPic.png',
       link: 'https://braymurph.github.io/Dict-Pic/',
     },
+    {
+      id: 16,
+      name: 'Fitness Flavors',
+      description: 'Fitness-Flavors is a web application designed to help you achieve your fitness goals with ease and precision. It provides a wide range of features to support your fitness journey.',
+      imageSrc: './works/fitnessFlavors',
+      link: 'https://fitness-flavors-6c56562cb291.herokuapp.com/ ',
+    },
   ];
 
   return (
