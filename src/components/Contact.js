@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import '../styles/Contact.css'; // Import your CSS for styling
+import resume from '../../public/FunkE-Resume.pdf'; //import my resume
 
 function Contact() {
   return (
@@ -47,7 +48,7 @@ function Contact() {
 
         {/* Resume Circle Button */}
         <div className="download-resume">
-          <a href="./public/FunkE-Resume.pdf" download className="resume-button">
+          <a href={resume} download="./public/FunkE-Resume.pdf" className="resume-button">
             Resume
           </a>
         </div>
