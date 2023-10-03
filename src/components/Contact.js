@@ -47,7 +47,7 @@ function Contact() {
 
         {/* Resume Circle Button */}
         <div className="download-resume">
-          <a href="./public/resume.pdf" download className="resume-button">
+          <a href="./public/FunkE-Resume.pdf" download className="resume-button">
             Resume
           </a>
         </div>
