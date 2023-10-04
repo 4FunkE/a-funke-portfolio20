@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/a-funke-portfolio20/static/css/main.6b3a6262.css",
+    "main.js": "/a-funke-portfolio20/static/js/main.74ee40e9.js",
+    "static/media/eyePainting.png": "/a-funke-portfolio20/static/media/eyePainting.989927a34957465be858.png",
+    "static/media/octoPainting.png": "/a-funke-portfolio20/static/media/octoPainting.0dd9f720387da35c119e.png",
+    "static/media/FunkE-CoverLetter-all.pdf": "/a-funke-portfolio20/static/media/FunkE-CoverLetter-all.145963505d6ef503e91d.pdf",
+    "static/media/FunkE-Resume.pdf": "/a-funke-portfolio20/static/media/FunkE-Resume.5d1605879b8ff137e6e9.pdf",
+    "static/media/Funk.E_ArtLogo.png": "/a-funke-portfolio20/static/media/Funk.E_ArtLogo.ba97b6a46527fcea9af4.png",
+    "index.html": "/a-funke-portfolio20/index.html",
+    "main.6b3a6262.css.map": "/a-funke-portfolio20/static/css/main.6b3a6262.css.map",
+    "main.74ee40e9.js.map": "/a-funke-portfolio20/static/js/main.74ee40e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b3a6262.css",
+    "static/js/main.74ee40e9.js"
+  ]
+}
