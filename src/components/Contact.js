@@ -18,7 +18,7 @@ function Contact() {
 
         <div className="social-media-icons">
           {/* Social Media Links */}
-          <a href="https://linkedin.com/in/emily-funk-7019409b">
+          <a href="https://www.linkedin.com/in/emily-rose-funk-512413294/">
             <FaLinkedin size={32} />
           </a>
           <a href="https://instagram.com/funk.e_art">
