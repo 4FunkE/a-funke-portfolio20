@@ -10,12 +10,6 @@
   --text: 'Maven Pro'; /*Arial, Helvetica, sans-serif;*/
 }
 
-.profile-image {
-  background-image: url('../../public/images/selfie.png'); /* Set your relative path to the background image */
-  width: 100px;
-  height: 100px;
-}
-  
 /* AboutMe.css */
 .about-me-container {
   background-color: var(--olivine);
@@ -26,6 +20,13 @@
   text-align: center; /* Center-align text within the container */
 }
 
+.aboutTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--Dark);
+  margin-top: 10px; /* Add a bit of space above the title */
+}
+
 .about-content {
   display: flex;
   /* Control the gap between left and right content */
@@ -34,22 +35,20 @@
 }
 
 .left-content {
-  /* Add styles for the left content (image) */
-  flex: 1; /* Takes up 1/2 of the container width */
-  /* Use CSS to shape the arch */
+  flex: 1;
   border-radius: 50%;
   overflow: hidden;
-  /* Add any other desired styles */
-  width: 200px; /* Set a fixed width for the circular image */
-  height: 200px; /* Set a fixed height for the circular image */
 }
 
-.left-content img {
+.profile-image {
+  background-image: url('../../public/images/selfie.png'); /* Set your relative path to the background image */
+  background-size: contain; /* Adjust background size as needed */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the image covers the circular space */
 }
-
+  
 .right-content {
   /* Add styles for the right content (paragraph) */
   flex: 1; /* Takes up 1/2 of the container width */
@@ -58,14 +57,7 @@
   /* Add any other desired styles */
 }
 
-.about-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: var(--Dark);
-  margin-top: 10px; /* Add a bit of space above the title */
-}
-
-.about-description {
+.aboutDescription {
   margin-top: 20px;
   font-size: 16px;
   line-height: 1.5;
@@ -83,7 +75,7 @@
   margin-top: auto; /* Push the bar to the bottom of the container */
 }
 
-.jack-button {
+.bottom-bar button {
   background-color: var(--Dark);
   color: var(--light);
   border: none;
@@ -92,6 +84,6 @@
   transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-.jack-button:hover {
+.bottom-bar button:hover {
   background-color: var(--olivine);
 }
