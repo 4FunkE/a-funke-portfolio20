@@ -13,15 +13,7 @@ function AboutMe() {
         </div>
         <div className="right-content">
           <p className='aboutDescription'>
-            👋 Former Art and Design Educator 🎨 turned Full Stack Developer 🚀 | Passionate about hiking, weightlifting, and landscaping 🌄 | Open to collaborations and constantly learning 🤝
-
-            I am a multifaceted professional, combining my background in Art and Design Education with a burgeoning passion for coding. A BFA/MS graduate from Pratt Institute, School of Art and Design in Brooklyn, New York, I dedicated six years to the study of Art and Design Education.
-
-            Currently, I'm an educator at Charlotte Lab Lower Schools, where I have worn many hats – teacher, mentor, and instructor – guiding students across diverse disciplines. In addition to my role in education, I express myself through various artistic mediums, including Printmaking, Digital Photography, Performing Arts, Jewelry/Metalwork, Drawing, and Glass.
-
-            Recently, I embarked on a transformative journey into the world of coding, transitioning to Full Stack Development. My goal is to leverage my deep understanding of design and education to contribute to the field of web development. Equipped with skills in the MERN Stack (MongoDB, Express, React, Node.js), I'm crafting user-friendly, innovative solutions, and embracing the power of interdisciplinary learning.
-
-            My commitment to learning and excellence remains unwavering as I bridge my educational background with coding expertise. I see each experience as an opportunity to explore, create, and grow, both as a developer and as an educator, drawing inspiration from my students, colleagues, and the ever-evolving digital landscape.
+          As a Full Stack Developer, I've embarked on a journey into the world of coding after earning my BFA/MS degree at Pratt Institute, School of Art and Design, with a background in Art and Design Education. While my educational experience equipped me with valuable teaching, mentoring, and instructional skills, I've now channeled my passion for learning and facilitating engagement into the dynamic field of Full Stack Development. I've acquired the necessary skills to craft web applications, mobile apps, and websites using the MERN Stack (MongoDB, Express, React, Node.js).
             </p>
         </div>
       </div>
